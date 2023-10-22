@@ -1,0 +1,43 @@
+/* src/components/FriendList/FriendList.module.css */
+.friendList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Центруємо елементи по горизонталі */
+}
+
+/* src/components/FriendList/FriendListItem/FriendListItem.module.css */
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Додаємо рамку */
+  border-radius: 8px; /* Заокруглюємо кути */
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.online,
+.offline {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}

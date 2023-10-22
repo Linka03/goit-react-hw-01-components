@@ -1,0 +1,40 @@
+/* src/components/Statistics/Statistics.module.css */
+.statistics {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Центруємо вміст по центру елемента */
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.statList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Відображаємо елементи в рядку */
+  flex-direction: row; /* Змінюємо на режим рядка */
+  align-items: center; /* Центруємо елементи по горизонталі */
+}
+
+.item {
+  margin-right: 10px; /* Додаємо відступ між елементами */
+}
+
+.label {
+  font-weight: bold;
+  color: #333;
+}
+
+.percentage {
+  margin-left: 5px;
+  color: #777;
+  display: inline; /* Відображаємо елементи в рядку */
+}
